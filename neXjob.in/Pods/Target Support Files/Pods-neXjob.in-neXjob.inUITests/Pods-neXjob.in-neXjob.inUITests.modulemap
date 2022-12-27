@@ -1,0 +1,6 @@
+framework module Pods_neXjob_in_neXjob_inUITests {
+  umbrella header "Pods-neXjob.in-neXjob.inUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

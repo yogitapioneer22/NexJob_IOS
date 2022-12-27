@@ -1,0 +1,6 @@
+framework module Pods_neXjob_in {
+  umbrella header "Pods-neXjob.in-umbrella.h"
+
+  export *
+  module * { export * }
+}

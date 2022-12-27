@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336A16E4452DCEAB65C6B1E2 /* Pods_neXjob_in.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A97A1284EE17ADB86F8778 /* Pods_neXjob_in.framework */; };
+		B1085BA329504EDD00E1F719 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1085BA229504EDD00E1F719 /* AboutUsVC.swift */; };
+		B1085BA52950514B00E1F719 /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1085BA42950514B00E1F719 /* PrivacyPolicyVC.swift */; };
+		B1085BA7295066E900E1F719 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1085BA6295066E900E1F719 /* MenuVC.swift */; };
+		B1085BA92950671400E1F719 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1085BA82950671400E1F719 /* MenuCell.swift */; };
+		B1085BAB2950773200E1F719 /* ViewController11.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1085BAA2950773200E1F719 /* ViewController11.swift */; };
+		B10E591629504C25003ECC96 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E591529504C25003ECC96 /* HomeTableViewCell.swift */; };
+		B110D1CB29517A52007589D2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B110D1CA29517A52007589D2 /* HomeVC.swift */; };
+		B1358C14294356BB00996399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1358C13294356BB00996399 /* AppDelegate.swift */; };
+		B1358C16294356BB00996399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1358C15294356BB00996399 /* SceneDelegate.swift */; };
+		B1358C18294356BB00996399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1358C17294356BB00996399 /* ViewController.swift */; };
+		B1358C1B294356BB00996399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1358C19294356BB00996399 /* Main.storyboard */; };
+		B1358C1D294356BC00996399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1358C1C294356BC00996399 /* Assets.xcassets */; };
+		B1358C20294356BC00996399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1358C1E294356BC00996399 /* LaunchScreen.storyboard */; };
+		B1358C2B294356BC00996399 /* neXjob_inTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1358C2A294356BC00996399 /* neXjob_inTests.swift */; };
+		B1358C35294356BC00996399 /* neXjob_inUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1358C34294356BC00996399 /* neXjob_inUITests.swift */; };
+		B1358C37294356BC00996399 /* neXjob_inUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1358C36294356BC00996399 /* neXjob_inUITestsLaunchTests.swift */; };
+		B14BFE88295431A900AC9BC3 /* SavedJobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BFE87295431A900AC9BC3 /* SavedJobCell.swift */; };
+		B150FF512948ABC4007E2BFF /* PersnolDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150FF502948ABC4007E2BFF /* PersnolDetailVC.swift */; };
+		B150FF532948B236007E2BFF /* SummeryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150FF522948B236007E2BFF /* SummeryVC.swift */; };
+		B164A6722951BA220056B60C /* EditProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B164A6712951BA220056B60C /* EditProfileCell.swift */; };
+		B164A6752951C64D0056B60C /* SkillsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B164A6742951C64D0056B60C /* SkillsVC.swift */; };
+		B18FA80F29543CE6005252F9 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18FA80E29543CE6005252F9 /* NotificationVC.swift */; };
+		B18FA81129543D5A005252F9 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18FA81029543D5A005252F9 /* NotificationCell.swift */; };
+		B18FA813295441C2005252F9 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18FA812295441C2005252F9 /* SettingsCell.swift */; };
+		B1986D102952F93900EDC05E /* SkillsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1986D0F2952F93900EDC05E /* SkillsCollectionCell.swift */; };
+		B1986D122952F96C00EDC05E /* SkillsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1986D112952F96C00EDC05E /* SkillsTableCell.swift */; };
+		B19F539A294449800019BD1F /* SingUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F5399294449800019BD1F /* SingUpVC.swift */; };
+		B19FE23E29509113001FCCF1 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FE23D29509113001FCCF1 /* SettingsVC.swift */; };
+		B19FE24029509147001FCCF1 /* FunnelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FE23F29509147001FCCF1 /* FunnelVC.swift */; };
+		B19FE2422950917B001FCCF1 /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FE2412950917B001FCCF1 /* WalletVC.swift */; };
+		B19FE244295091BE001FCCF1 /* SavedJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FE243295091BE001FCCF1 /* SavedJobsVC.swift */; };
+		B1C9919A2944BD47004DC68C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C991992944BD47004DC68C /* LoginVC.swift */; };
+		B1C9919C2946FDF8004DC68C /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9919B2946FDF8004DC68C /* ResetPasswordVC.swift */; };
+		B1E3D70B2951CE7A0005E67D /* LanguagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3D70A2951CE7A0005E67D /* LanguagesVC.swift */; };
+		B1E3D70D2951CEA20005E67D /* EducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3D70C2951CEA20005E67D /* EducationVC.swift */; };
+		B1E3D70F2951CED50005E67D /* DesierCareerProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3D70E2951CED50005E67D /* DesierCareerProfileVC.swift */; };
+		B1E3D7112951CEF70005E67D /* UploadResumeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3D7102951CEF70005E67D /* UploadResumeVC.swift */; };
+		B1E3D7132951CF450005E67D /* CertificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3D7122951CF450005E67D /* CertificationVC.swift */; };
+		B1E3D7152951CF6D0005E67D /* ProjectDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3D7142951CF6D0005E67D /* ProjectDetailVC.swift */; };
+		B1E3D7172951CFC90005E67D /* EmploymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3D7162951CFC90005E67D /* EmploymentVC.swift */; };
+		B1FF277C2951A87D002FECCA /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FF277B2951A87D002FECCA /* EditProfileVC.swift */; };
+		C694050EB50FE88D7B502DEF /* Pods_neXjob_in_neXjob_inUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2DA7FE96D9326FD95442B5 /* Pods_neXjob_in_neXjob_inUITests.framework */; };
+		CB6BD6F8294AFDF90056EAB8 /* OtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6BD6F6294AFDF90056EAB8 /* OtpView.swift */; };
+		CB6BD6F9294AFDF90056EAB8 /* OtpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6BD6F7294AFDF90056EAB8 /* OtpView.xib */; };
+		CB6BD6FB294B08AB0056EAB8 /* VerifyOTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6BD6FA294B08AB0056EAB8 /* VerifyOTPVC.swift */; };
+		CB6BD6FF294B0AE40056EAB8 /* ApiURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6BD6FE294B0AE40056EAB8 /* ApiURL.swift */; };
+		E9A091271996D17DD1959B70 /* Pods_neXjob_inTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F3A33B19AC8ADA611744EB /* Pods_neXjob_inTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1358C27294356BC00996399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1358C08294356BB00996399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1358C0F294356BB00996399;
+			remoteInfo = neXjob.in;
+		};
+		B1358C31294356BC00996399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1358C08294356BB00996399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1358C0F294356BB00996399;
+			remoteInfo = neXjob.in;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15E678D7E47D2E075F2C1218 /* Pods-neXjob.inTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neXjob.inTests.debug.xcconfig"; path = "Target Support Files/Pods-neXjob.inTests/Pods-neXjob.inTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59425CD5FB10CBE1D7C33F2A /* Pods-neXjob.in.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neXjob.in.debug.xcconfig"; path = "Target Support Files/Pods-neXjob.in/Pods-neXjob.in.debug.xcconfig"; sourceTree = "<group>"; };
+		88F3A33B19AC8ADA611744EB /* Pods_neXjob_inTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neXjob_inTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2DA7FE96D9326FD95442B5 /* Pods_neXjob_in_neXjob_inUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neXjob_in_neXjob_inUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A786D224F4E7FF54F222EDFA /* Pods-neXjob.in.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neXjob.in.release.xcconfig"; path = "Target Support Files/Pods-neXjob.in/Pods-neXjob.in.release.xcconfig"; sourceTree = "<group>"; };
+		A7A41F7557F52A3D34B9AAA5 /* Pods-neXjob.in-neXjob.inUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neXjob.in-neXjob.inUITests.release.xcconfig"; path = "Target Support Files/Pods-neXjob.in-neXjob.inUITests/Pods-neXjob.in-neXjob.inUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1085BA229504EDD00E1F719 /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		B1085BA42950514B00E1F719 /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		B1085BA6295066E900E1F719 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		B1085BA82950671400E1F719 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		B1085BAA2950773200E1F719 /* ViewController11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController11.swift; sourceTree = "<group>"; };
+		B10E591529504C25003ECC96 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B110D1CA29517A52007589D2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B1358C10294356BB00996399 /* neXjob.in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neXjob.in.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1358C13294356BB00996399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1358C15294356BB00996399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1358C17294356BB00996399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1358C1A294356BB00996399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1358C1C294356BC00996399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1358C1F294356BC00996399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1358C21294356BC00996399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1358C26294356BC00996399 /* neXjob.inTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neXjob.inTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1358C2A294356BC00996399 /* neXjob_inTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neXjob_inTests.swift; sourceTree = "<group>"; };
+		B1358C30294356BC00996399 /* neXjob.inUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neXjob.inUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1358C34294356BC00996399 /* neXjob_inUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neXjob_inUITests.swift; sourceTree = "<group>"; };
+		B1358C36294356BC00996399 /* neXjob_inUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neXjob_inUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B14BFE87295431A900AC9BC3 /* SavedJobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedJobCell.swift; sourceTree = "<group>"; };
+		B150FF502948ABC4007E2BFF /* PersnolDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersnolDetailVC.swift; sourceTree = "<group>"; };
+		B150FF522948B236007E2BFF /* SummeryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummeryVC.swift; sourceTree = "<group>"; };
+		B164A6712951BA220056B60C /* EditProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileCell.swift; sourceTree = "<group>"; };
+		B164A6742951C64D0056B60C /* SkillsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsVC.swift; sourceTree = "<group>"; };
+		B18FA80E29543CE6005252F9 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		B18FA81029543D5A005252F9 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		B18FA812295441C2005252F9 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		B1986D0F2952F93900EDC05E /* SkillsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsCollectionCell.swift; sourceTree = "<group>"; };
+		B1986D112952F96C00EDC05E /* SkillsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsTableCell.swift; sourceTree = "<group>"; };
+		B19F5399294449800019BD1F /* SingUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpVC.swift; sourceTree = "<group>"; };
+		B19FE23D29509113001FCCF1 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		B19FE23F29509147001FCCF1 /* FunnelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnelVC.swift; sourceTree = "<group>"; };
+		B19FE2412950917B001FCCF1 /* WalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
+		B19FE243295091BE001FCCF1 /* SavedJobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedJobsVC.swift; sourceTree = "<group>"; };
+		B1C991992944BD47004DC68C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B1C9919B2946FDF8004DC68C /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		B1E3D70A2951CE7A0005E67D /* LanguagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesVC.swift; sourceTree = "<group>"; };
+		B1E3D70C2951CEA20005E67D /* EducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationVC.swift; sourceTree = "<group>"; };
+		B1E3D70E2951CED50005E67D /* DesierCareerProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesierCareerProfileVC.swift; sourceTree = "<group>"; };
+		B1E3D7102951CEF70005E67D /* UploadResumeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadResumeVC.swift; sourceTree = "<group>"; };
+		B1E3D7122951CF450005E67D /* CertificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationVC.swift; sourceTree = "<group>"; };
+		B1E3D7142951CF6D0005E67D /* ProjectDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailVC.swift; sourceTree = "<group>"; };
+		B1E3D7162951CFC90005E67D /* EmploymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmploymentVC.swift; sourceTree = "<group>"; };
+		B1FF277B2951A87D002FECCA /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		C8935DECD95DE3E026DCF85C /* Pods-neXjob.inTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neXjob.inTests.release.xcconfig"; path = "Target Support Files/Pods-neXjob.inTests/Pods-neXjob.inTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB6BD6F6294AFDF90056EAB8 /* OtpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpView.swift; sourceTree = "<group>"; };
+		CB6BD6F7294AFDF90056EAB8 /* OtpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpView.xib; sourceTree = "<group>"; };
+		CB6BD6FA294B08AB0056EAB8 /* VerifyOTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPVC.swift; sourceTree = "<group>"; };
+		CB6BD6FE294B0AE40056EAB8 /* ApiURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiURL.swift; sourceTree = "<group>"; };
+		D4A97A1284EE17ADB86F8778 /* Pods_neXjob_in.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neXjob_in.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65665B4BAEFB2E9281D7F56 /* Pods-neXjob.in-neXjob.inUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neXjob.in-neXjob.inUITests.debug.xcconfig"; path = "Target Support Files/Pods-neXjob.in-neXjob.inUITests/Pods-neXjob.in-neXjob.inUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1358C0D294356BB00996399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336A16E4452DCEAB65C6B1E2 /* Pods_neXjob_in.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1358C23294356BC00996399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A091271996D17DD1959B70 /* Pods_neXjob_inTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1358C2D294356BC00996399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C694050EB50FE88D7B502DEF /* Pods_neXjob_in_neXjob_inUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432203BFDFC4652E73A94D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A97A1284EE17ADB86F8778 /* Pods_neXjob_in.framework */,
+				9A2DA7FE96D9326FD95442B5 /* Pods_neXjob_in_neXjob_inUITests.framework */,
+				88F3A33B19AC8ADA611744EB /* Pods_neXjob_inTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DF018CA204826077C831CFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59425CD5FB10CBE1D7C33F2A /* Pods-neXjob.in.debug.xcconfig */,
+				A786D224F4E7FF54F222EDFA /* Pods-neXjob.in.release.xcconfig */,
+				E65665B4BAEFB2E9281D7F56 /* Pods-neXjob.in-neXjob.inUITests.debug.xcconfig */,
+				A7A41F7557F52A3D34B9AAA5 /* Pods-neXjob.in-neXjob.inUITests.release.xcconfig */,
+				15E678D7E47D2E075F2C1218 /* Pods-neXjob.inTests.debug.xcconfig */,
+				C8935DECD95DE3E026DCF85C /* Pods-neXjob.inTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1358C07294356BB00996399 = {
+			isa = PBXGroup;
+			children = (
+				CB6BD6FE294B0AE40056EAB8 /* ApiURL.swift */,
+				B18FA8142954528D005252F9 /* View */,
+				CB6BD6F5294AFDDC0056EAB8 /* ViewController */,
+				B1358C12294356BB00996399 /* neXjob.in */,
+				B1358C29294356BC00996399 /* neXjob.inTests */,
+				B1358C33294356BC00996399 /* neXjob.inUITests */,
+				B1358C11294356BB00996399 /* Products */,
+				8DF018CA204826077C831CFA /* Pods */,
+				432203BFDFC4652E73A94D11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1358C11294356BB00996399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1358C10294356BB00996399 /* neXjob.in.app */,
+				B1358C26294356BC00996399 /* neXjob.inTests.xctest */,
+				B1358C30294356BC00996399 /* neXjob.inUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1358C12294356BB00996399 /* neXjob.in */ = {
+			isa = PBXGroup;
+			children = (
+				B1358C13294356BB00996399 /* AppDelegate.swift */,
+				B1358C15294356BB00996399 /* SceneDelegate.swift */,
+				B1358C17294356BB00996399 /* ViewController.swift */,
+				B1358C19294356BB00996399 /* Main.storyboard */,
+				B1358C1C294356BC00996399 /* Assets.xcassets */,
+				B1358C1E294356BC00996399 /* LaunchScreen.storyboard */,
+				B1358C21294356BC00996399 /* Info.plist */,
+				B1085BAA2950773200E1F719 /* ViewController11.swift */,
+			);
+			path = neXjob.in;
+			sourceTree = "<group>";
+		};
+		B1358C29294356BC00996399 /* neXjob.inTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1358C2A294356BC00996399 /* neXjob_inTests.swift */,
+			);
+			path = neXjob.inTests;
+			sourceTree = "<group>";
+		};
+		B1358C33294356BC00996399 /* neXjob.inUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1358C34294356BC00996399 /* neXjob_inUITests.swift */,
+				B1358C36294356BC00996399 /* neXjob_inUITestsLaunchTests.swift */,
+			);
+			path = neXjob.inUITests;
+			sourceTree = "<group>";
+		};
+		B18FA8142954528D005252F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B18FA81029543D5A005252F9 /* NotificationCell.swift */,
+				B1986D112952F96C00EDC05E /* SkillsTableCell.swift */,
+				CB6BD6F7294AFDF90056EAB8 /* OtpView.xib */,
+				B14BFE87295431A900AC9BC3 /* SavedJobCell.swift */,
+				B164A6712951BA220056B60C /* EditProfileCell.swift */,
+				B1085BA82950671400E1F719 /* MenuCell.swift */,
+				B1986D0F2952F93900EDC05E /* SkillsCollectionCell.swift */,
+				B18FA812295441C2005252F9 /* SettingsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB6BD6F5294AFDDC0056EAB8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB6BD6FA294B08AB0056EAB8 /* VerifyOTPVC.swift */,
+				B150FF522948B236007E2BFF /* SummeryVC.swift */,
+				B1C9919B2946FDF8004DC68C /* ResetPasswordVC.swift */,
+				B1C991992944BD47004DC68C /* LoginVC.swift */,
+				B1085BA229504EDD00E1F719 /* AboutUsVC.swift */,
+				B1085BA42950514B00E1F719 /* PrivacyPolicyVC.swift */,
+				B1085BA6295066E900E1F719 /* MenuVC.swift */,
+				B18FA80E29543CE6005252F9 /* NotificationVC.swift */,
+				B1E3D7162951CFC90005E67D /* EmploymentVC.swift */,
+				B1E3D7142951CF6D0005E67D /* ProjectDetailVC.swift */,
+				B1E3D7122951CF450005E67D /* CertificationVC.swift */,
+				B1E3D7102951CEF70005E67D /* UploadResumeVC.swift */,
+				B1E3D70E2951CED50005E67D /* DesierCareerProfileVC.swift */,
+				B1E3D70C2951CEA20005E67D /* EducationVC.swift */,
+				B1E3D70A2951CE7A0005E67D /* LanguagesVC.swift */,
+				B164A6742951C64D0056B60C /* SkillsVC.swift */,
+				B1FF277B2951A87D002FECCA /* EditProfileVC.swift */,
+				B110D1CA29517A52007589D2 /* HomeVC.swift */,
+				B19FE243295091BE001FCCF1 /* SavedJobsVC.swift */,
+				B19FE2412950917B001FCCF1 /* WalletVC.swift */,
+				B19FE23F29509147001FCCF1 /* FunnelVC.swift */,
+				B19FE23D29509113001FCCF1 /* SettingsVC.swift */,
+				B150FF502948ABC4007E2BFF /* PersnolDetailVC.swift */,
+				B19F5399294449800019BD1F /* SingUpVC.swift */,
+				CB6BD6F6294AFDF90056EAB8 /* OtpView.swift */,
+				B10E591529504C25003ECC96 /* HomeTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1358C0F294356BB00996399 /* neXjob.in */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1358C3A294356BC00996399 /* Build configuration list for PBXNativeTarget "neXjob.in" */;
+			buildPhases = (
+				A323DA91E3D9FF425B7CCD84 /* [CP] Check Pods Manifest.lock */,
+				B1358C0C294356BB00996399 /* Sources */,
+				B1358C0D294356BB00996399 /* Frameworks */,
+				B1358C0E294356BB00996399 /* Resources */,
+				A95F6D8369E86DC827A6DDA1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = neXjob.in;
+			productName = neXjob.in;
+			productReference = B1358C10294356BB00996399 /* neXjob.in.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1358C25294356BC00996399 /* neXjob.inTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1358C3D294356BC00996399 /* Build configuration list for PBXNativeTarget "neXjob.inTests" */;
+			buildPhases = (
+				F33FEE0D93B6A54582C193BF /* [CP] Check Pods Manifest.lock */,
+				B1358C22294356BC00996399 /* Sources */,
+				B1358C23294356BC00996399 /* Frameworks */,
+				B1358C24294356BC00996399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1358C28294356BC00996399 /* PBXTargetDependency */,
+			);
+			name = neXjob.inTests;
+			productName = neXjob.inTests;
+			productReference = B1358C26294356BC00996399 /* neXjob.inTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1358C2F294356BC00996399 /* neXjob.inUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1358C40294356BC00996399 /* Build configuration list for PBXNativeTarget "neXjob.inUITests" */;
+			buildPhases = (
+				22A61033670929AF30195D22 /* [CP] Check Pods Manifest.lock */,
+				B1358C2C294356BC00996399 /* Sources */,
+				B1358C2D294356BC00996399 /* Frameworks */,
+				B1358C2E294356BC00996399 /* Resources */,
+				3E5ABD7FFF39911DDA79CC0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1358C32294356BC00996399 /* PBXTargetDependency */,
+			);
+			name = neXjob.inUITests;
+			productName = neXjob.inUITests;
+			productReference = B1358C30294356BC00996399 /* neXjob.inUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1358C08294356BB00996399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B1358C0F294356BB00996399 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B1358C25294356BC00996399 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B1358C0F294356BB00996399;
+					};
+					B1358C2F294356BC00996399 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B1358C0F294356BB00996399;
+					};
+				};
+			};
+			buildConfigurationList = B1358C0B294356BB00996399 /* Build configuration list for PBXProject "neXjob.in" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1358C07294356BB00996399;
+			productRefGroup = B1358C11294356BB00996399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1358C0F294356BB00996399 /* neXjob.in */,
+				B1358C25294356BC00996399 /* neXjob.inTests */,
+				B1358C2F294356BC00996399 /* neXjob.inUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1358C0E294356BB00996399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1358C20294356BC00996399 /* LaunchScreen.storyboard in Resources */,
+				B1358C1D294356BC00996399 /* Assets.xcassets in Resources */,
+				CB6BD6F9294AFDF90056EAB8 /* OtpView.xib in Resources */,
+				B1358C1B294356BB00996399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1358C24294356BC00996399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1358C2E294356BC00996399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22A61033670929AF30195D22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neXjob.in-neXjob.inUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E5ABD7FFF39911DDA79CC0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neXjob.in-neXjob.inUITests/Pods-neXjob.in-neXjob.inUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neXjob.in-neXjob.inUITests/Pods-neXjob.in-neXjob.inUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-neXjob.in-neXjob.inUITests/Pods-neXjob.in-neXjob.inUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A323DA91E3D9FF425B7CCD84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neXjob.in-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95F6D8369E86DC827A6DDA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neXjob.in/Pods-neXjob.in-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neXjob.in/Pods-neXjob.in-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-neXjob.in/Pods-neXjob.in-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33FEE0D93B6A54582C193BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neXjob.inTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1358C0C294356BB00996399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FE244295091BE001FCCF1 /* SavedJobsVC.swift in Sources */,
+				B1E3D70D2951CEA20005E67D /* EducationVC.swift in Sources */,
+				B19FE23E29509113001FCCF1 /* SettingsVC.swift in Sources */,
+				B19F539A294449800019BD1F /* SingUpVC.swift in Sources */,
+				CB6BD6F8294AFDF90056EAB8 /* OtpView.swift in Sources */,
+				B10E591629504C25003ECC96 /* HomeTableViewCell.swift in Sources */,
+				CB6BD6FF294B0AE40056EAB8 /* ApiURL.swift in Sources */,
+				B1E3D70F2951CED50005E67D /* DesierCareerProfileVC.swift in Sources */,
+				B1986D122952F96C00EDC05E /* SkillsTableCell.swift in Sources */,
+				B1358C18294356BB00996399 /* ViewController.swift in Sources */,
+				B1085BA7295066E900E1F719 /* MenuVC.swift in Sources */,
+				B110D1CB29517A52007589D2 /* HomeVC.swift in Sources */,
+				B1085BA52950514B00E1F719 /* PrivacyPolicyVC.swift in Sources */,
+				B1E3D7112951CEF70005E67D /* UploadResumeVC.swift in Sources */,
+				B1358C14294356BB00996399 /* AppDelegate.swift in Sources */,
+				B19FE2422950917B001FCCF1 /* WalletVC.swift in Sources */,
+				B18FA813295441C2005252F9 /* SettingsCell.swift in Sources */,
+				B164A6752951C64D0056B60C /* SkillsVC.swift in Sources */,
+				B19FE24029509147001FCCF1 /* FunnelVC.swift in Sources */,
+				B1358C16294356BB00996399 /* SceneDelegate.swift in Sources */,
+				B18FA80F29543CE6005252F9 /* NotificationVC.swift in Sources */,
+				B1986D102952F93900EDC05E /* SkillsCollectionCell.swift in Sources */,
+				B1C9919A2944BD47004DC68C /* LoginVC.swift in Sources */,
+				B1E3D7152951CF6D0005E67D /* ProjectDetailVC.swift in Sources */,
+				B150FF532948B236007E2BFF /* SummeryVC.swift in Sources */,
+				B164A6722951BA220056B60C /* EditProfileCell.swift in Sources */,
+				B1E3D7132951CF450005E67D /* CertificationVC.swift in Sources */,
+				B1085BA329504EDD00E1F719 /* AboutUsVC.swift in Sources */,
+				CB6BD6FB294B08AB0056EAB8 /* VerifyOTPVC.swift in Sources */,
+				B1E3D7172951CFC90005E67D /* EmploymentVC.swift in Sources */,
+				B1085BAB2950773200E1F719 /* ViewController11.swift in Sources */,
+				B150FF512948ABC4007E2BFF /* PersnolDetailVC.swift in Sources */,
+				B1085BA92950671400E1F719 /* MenuCell.swift in Sources */,
+				B1E3D70B2951CE7A0005E67D /* LanguagesVC.swift in Sources */,
+				B1FF277C2951A87D002FECCA /* EditProfileVC.swift in Sources */,
+				B18FA81129543D5A005252F9 /* NotificationCell.swift in Sources */,
+				B1C9919C2946FDF8004DC68C /* ResetPasswordVC.swift in Sources */,
+				B14BFE88295431A900AC9BC3 /* SavedJobCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1358C22294356BC00996399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1358C2B294356BC00996399 /* neXjob_inTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1358C2C294356BC00996399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1358C35294356BC00996399 /* neXjob_inUITests.swift in Sources */,
+				B1358C37294356BC00996399 /* neXjob_inUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1358C28294356BC00996399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1358C0F294356BB00996399 /* neXjob.in */;
+			targetProxy = B1358C27294356BC00996399 /* PBXContainerItemProxy */;
+		};
+		B1358C32294356BC00996399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1358C0F294356BB00996399 /* neXjob.in */;
+			targetProxy = B1358C31294356BC00996399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1358C19294356BB00996399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1358C1A294356BB00996399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1358C1E294356BC00996399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1358C1F294356BC00996399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1358C38294356BC00996399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1358C39294356BC00996399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1358C3B294356BC00996399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59425CD5FB10CBE1D7C33F2A /* Pods-neXjob.in.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URN3J4VWSZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = neXjob.in/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neXjob.in.neXjob-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1358C3C294356BC00996399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A786D224F4E7FF54F222EDFA /* Pods-neXjob.in.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URN3J4VWSZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = neXjob.in/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neXjob.in.neXjob-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1358C3E294356BC00996399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E678D7E47D2E075F2C1218 /* Pods-neXjob.inTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URN3J4VWSZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neXjob.in.neXjob-inTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neXjob.in.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/neXjob.in";
+			};
+			name = Debug;
+		};
+		B1358C3F294356BC00996399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8935DECD95DE3E026DCF85C /* Pods-neXjob.inTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URN3J4VWSZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neXjob.in.neXjob-inTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neXjob.in.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/neXjob.in";
+			};
+			name = Release;
+		};
+		B1358C41294356BC00996399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65665B4BAEFB2E9281D7F56 /* Pods-neXjob.in-neXjob.inUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URN3J4VWSZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neXjob.in.neXjob-inUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = neXjob.in;
+			};
+			name = Debug;
+		};
+		B1358C42294356BC00996399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A41F7557F52A3D34B9AAA5 /* Pods-neXjob.in-neXjob.inUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = URN3J4VWSZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neXjob.in.neXjob-inUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = neXjob.in;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1358C0B294356BB00996399 /* Build configuration list for PBXProject "neXjob.in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1358C38294356BC00996399 /* Debug */,
+				B1358C39294356BC00996399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1358C3A294356BC00996399 /* Build configuration list for PBXNativeTarget "neXjob.in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1358C3B294356BC00996399 /* Debug */,
+				B1358C3C294356BC00996399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1358C3D294356BC00996399 /* Build configuration list for PBXNativeTarget "neXjob.inTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1358C3E294356BC00996399 /* Debug */,
+				B1358C3F294356BC00996399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1358C40294356BC00996399 /* Build configuration list for PBXNativeTarget "neXjob.inUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1358C41294356BC00996399 /* Debug */,
+				B1358C42294356BC00996399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1358C08294356BB00996399 /* Project object */;
+}
